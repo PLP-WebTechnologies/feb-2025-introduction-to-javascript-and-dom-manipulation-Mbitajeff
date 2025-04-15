@@ -1,0 +1,46 @@
+/* Basic styling for the entire body */
+body {
+    font-family: Arial, sans-serif;  /* Setting a clean, modern font */
+    background-color: #f0f0f0;  /* Soft background color for readability */
+    color: #333;  /* Text color for contrast */
+}
+
+/* Styling for the header */
+header {
+    background-color: #333;  /* Dark background for the header */
+    color: white;  /* White text color to contrast against dark background */
+    padding: 10px;  /* Adding some padding for spacing */
+    text-align: center;  /* Center the header text */
+}
+
+/* Styling for the main section where dynamic actions happen */
+section {
+    margin: 20px;  /* Some margin around the section */
+    padding: 20px;  /* Padding for internal space */
+    background-color: #fff;  /* White background for clean content area */
+    border-radius: 5px;  /* Rounded corners for aesthetics */
+}
+
+/* Basic button styling */
+button {
+    background-color: #4CAF50;  /* Green background for buttons */
+    color: white;  /* White text on buttons */
+    padding: 10px 20px;  /* Padding for the button for easier clicks */
+    border: none;  /* No border to make it cleaner */
+    cursor: pointer;  /* Cursor changes to pointer to indicate it’s clickable */
+    margin: 5px;  /* Margin between buttons */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #45a049;  /* Slightly darker green when hovered */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;  /* Centered text in the footer */
+    padding: 10px;  /* Padding for spacing */
+    background-color: #333;  /* Dark footer background */
+    color: white;  /* White text for the footer */
+    margin-top: 20px;  /* Margin to separate footer from other content */
+}
